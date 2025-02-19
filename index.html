@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Day-1</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Java Script</h1>
+    <h2>Versions</h2>
+    <hr />
+    <p>ES1 ECMAScript 1 (1997) First edition</p>
+    <p>ES2 ECMAScript 2 (1998) Editorial changes</p>
+    <p>
+      ES3 ECMAScript 3 (1999) Added regular expressions Added try/catch Added
+      switch Added do-while
+    </p>
+    <p>ES4 ECMAScript 4 Never released</p>
+    <p>
+      ES5 ECMAScript 5 (2009) Added "strict mode" Added JSON support Added
+      String.trim() Added Array.isArray() Added Array iteration methods Allows
+      trailing commas for object literals
+    </p>
+    <p>
+      ES6 ECMAScript 2015 Added let and const Added default parameter values
+      Added Array.find() Added Array.findIndex()
+    </p>
+    <p>
+      ECMAScript 2017 Added string padding Added Object.entries() Added
+      Object.values() Added async functions Added shared memory Allows trailing
+      commas for function parameters
+    </p>
+    <p>
+      ECMAScript 2018 Added rest / spread properties Added asynchronous
+      iteration Added Promise.finally() Additions to RegExp
+    </p>
+    <p>
+      ECMAScript 2019 String.trimStart() String.trimEnd() Array.flat()
+      Object.fromEntries Optional catch binding
+    </p>
+    <p>ECMAScript 2020 The Nullish Coalescing Operator (??)</p>
+    <h2>Uses of JavaScript</h2>
+    <hr />
+    <h3>Web Development</h3>
+    <p>
+      Web development encompasses the creation of websites and web applications.
+      It involves front-end development for user interfaces and back-end
+      development for server-side functionality. HTML, CSS, and JavaScript are
+      fundamental languages, while frameworks and tools enhance efficiency and
+      interactivity.
+    </p>
+    <h3>Web Applications</h3>
+    <p>
+      Web applications are software programs accessible via web browsers. They
+      provide various services and functionalities, including online shopping,
+      social media, and productivity tools. They rely on technologies like HTML,
+      CSS, and JavaScript for user interaction and data processing.
+    </p>
+    <h3>Front-End Development</h3>
+    <p>
+      JavaScript is essential for front-end web development. It enables the
+      creation of interactive user interfaces, form validation, and the
+      manipulation of the Document Object Model (DOM) to update the content and
+      structure of web pages dynamically.
+    </p>
+    <h3>Server Applications</h3>
+    <p>
+      Server applications in JavaScript, using platforms like Node.js, leverage
+      its event-driven, non-blocking architecture. They manage network requests,
+      perform data processing, and enable real-time communication, making
+      JavaScript a versatile choice for building scalable and efficient
+      server-side solutions.
+    </p>
+    <h3>Back-End Development</h3>
+    <p>
+      JavaScript is primarily a client-side language, it can also be used for
+      server-side development using platforms like Node.js. Node.js allows
+      developers to build scalable and high-performance server applications
+      using JavaScript, making it possible to use the same language for both
+      front-end and back-end development.
+    </p>
+    <h3>Games</h3>
+    <p>
+      JavaScript is used to create web-based games, from simple puzzles to
+      complex 3D adventures. Libraries like Phaser and Three.js facilitate game
+      development, making it accessible and interactive for users in web
+      browsers.
+    </p>
+    <h2>JavaScript Engines</h2>
+    <hr />
+    <h3>V8</h3>
+    <p>
+      V8 is a JavaScript engine developed by the Chromium Project for Google
+      Chrome and Chromium web browsers. It is a JavaScript engine that can run
+      standalone, or be embedded into any C++ application. Using its own parser,
+      it generates an abstract syntax tree. Then, Ignition generates bytecode
+      from this syntax tree using the internal V8 bytecode format. Bytecode is
+      compiled into machine code by TurboFan. It also handles memory allocation
+      for objects, and garbage collects objects it no longer needs. Optimization
+      techniques such as elision of expensive runtime properties, and inline
+      caching. The garbage collector is a generational incremental collector.
+    </p>
+    <h3>Chakra</h3>
+    <p>
+      Chakra is a JScript engine developed by Microsoft. It is proprietary
+      software. It is used in the Internet Explorer web browser. A distinctive
+      feature of the engine is that it JIT compiles scripts on a separate CPU
+      core, parallel to the web browser.
+    </p>
+    <h3>Spider Monkey</h3>
+    <p>
+      SpiderMonkey is the first JavaScript engine, written by Brendan Eich at
+      Netscape Communications, later released as open-source and currently
+      maintained by the Mozilla Foundation. It is still used in the Firefox web
+      browser.
+    </p>
+    <h2>Event Loop Mechanism</h2>
+    <hr />
+    <h3>Call Stack</h3>
+    <p>
+      JavaScript has a call stack where function execution is managed in a
+      Last-In, First-Out (LIFO) order.
+    </p>
+    <h3>Web APIs (or Background Tasks)</h3>
+    <p>
+      These include setTimeout, setInterval, fetch, DOM events, and other
+      non-blocking operations.
+    </p>
+    <h3>Callback Queue (Task Queue)</h3>
+    <p>
+      When an asynchronous operation is completed, its callback is pushed into
+      the task queue.
+    </p>
+    <h3>Event Loop</h3>
+    <p>
+      It continuously checks the call stack and, if empty, moves tasks from the
+      queue to the stack for execution.
+    </p>
+  </body>
+</html>
